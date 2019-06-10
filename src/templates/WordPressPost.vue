@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <h1 v-html="$page.wordPressPost.title"/>
+    <span>Demo Vuejs</span>
     <img
       v-if="$page.wordPressPost.featuredMedia"
       :src="$page.wordPressPost.featuredMedia.sourceUrl"
